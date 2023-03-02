@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Form </title>
+	<link rel="stylesheet" a href="{{ url_for('static', filename='style.css')}}">
+	<link rel="stylesheet" a href="css\font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<img src="https://media.glassdoor.com/sqll/573786/tvs-credit-services-squarelogo-1590679408071.png"/>
+		<form method='POST' action=''>
+			<div class="form-input">
+				
+				<input type="email" required name="email" placeholder="Enter your email "/>
+			</div>
+			<div class="form-input">
+				
+				<input type="text" required name="name" placeholder="Name"/>
+			</div>
+			<!-- <input type="submit" type="submit" value="Create Account" class="btn-signup"/> -->
+			<input type="submit" type="submit" value="LOGIN" class="btn-login"/>
+		</form>
+	</div>
+</body>
+</html>
